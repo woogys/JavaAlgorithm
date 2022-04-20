@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class StaticInitializerBlock {
 
  static int B; // static으로 B,H를 입력 받는다.
  static int H;
@@ -29,4 +29,4 @@ public static void main(String[] args){
 		
 	}//end of main
 
-}//end of class
+}//end of class 

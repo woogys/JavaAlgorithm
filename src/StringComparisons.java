@@ -10,7 +10,7 @@ public class StringComparisons {
         // 'smallest' must be the lexicographically smallest substring of length 'k'
         // 'largest' must be the lexicographically largest substring of length 'k'
         String lex = s.substring(0, k);
-        smallest = largest = lex;
+        smallest = largest = lex; // 연산 방향 오른쪽-> 왼쪽, lex=largest, largest=smallest / int일 경우에는 a = b = c = 100 이면 다 100인데..
 
         for (int i=1; i<= (s.length() - k); i++){
             lex = s.substring(i,(i+k));

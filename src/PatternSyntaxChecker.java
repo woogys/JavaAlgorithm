@@ -8,7 +8,6 @@ public class PatternSyntaxChecker {
         while(testCases > 0){
             String pattern = in.nextLine();
             //Write your code
-            testCases--; //
             try {
                 Pattern.compile(pattern);
                 System.out.println("Valid");
@@ -16,6 +15,7 @@ public class PatternSyntaxChecker {
             catch (PatternSyntaxException e) {
                 System.out.println("Invalid");
             }
+            testCases--; //
         }
     }
 }

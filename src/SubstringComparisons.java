@@ -12,7 +12,7 @@ public class SubstringComparisons {
         String lex = s.substring(0, k);
         smallest = largest = lex;  // wel
 //                                5       2
-        for (int i=1; i<= (s.length() - k); i++){ //int는                    // i<=(s.length())
+        for (int i=1; i<= (s.length() - k); i++){
             lex = s.substring(i,(i+k)); // abcde  (1,3) bc (2,4) cd (3,5) de  // s.substring(i, i+k) (1,3) bc (2,4)cd (3,5) de (4,6) e?
             if (lex.compareTo(smallest)<0){  //   (1,4) bcd (2,5) cde // (1,4) bcd (2,5) cde (3,6) de?
                 smallest = lex;

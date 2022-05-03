@@ -21,3 +21,5 @@ public class PrimalityTest {
         }
     }
 }
+
+//재귀호출

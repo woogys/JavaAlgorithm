@@ -15,7 +15,7 @@ public class Java2DArray {
                     if (i > 1 && j > 1)
                     {
                         int sum =
-                                a[i][j]
+                                a[i][j] //2,2
                                         + a[i][j-1]
                                         + a[i][j-2]
                                         + a[i-1][j-1]

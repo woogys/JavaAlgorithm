@@ -4,7 +4,7 @@ public class Java2DArray {
     public static void main(String[] args)
     {
         int a[][] = new int[6][6];
-        int maxSum = -54; //Integer.MIN_VALUE;
+        int maxSum = -63; //Integer.MIN_VALUE;
         try (Scanner scanner = new Scanner(System.in);)
         {
             for(int i = 0; i < 6; i++)

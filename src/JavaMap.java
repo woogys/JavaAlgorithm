@@ -15,12 +15,12 @@ public class JavaMap {
             phoneBook.put(name, phone);
         }
         while(in.hasNext()){
-            String s=in.nextLine();
-            if( !phoneBook.containsKey(s)){
+            String name=in.nextLine();
+            if(!phoneBook.containsKey(name)){
                 System.out.println("Not Found");
                 continue;
             }
-            System.out.println(s + "=" + phoneBook.get(s));
+            System.out.println(name + "=" + phoneBook.get(name));
         }
     }
 }

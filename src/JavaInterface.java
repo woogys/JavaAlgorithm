@@ -38,3 +38,11 @@ class JavaInterface{
         }
     }
 }
+
+
+//Sample Input
+//6
+
+//Sample Output
+//I implemented: AdvancedArithmetic
+// 12

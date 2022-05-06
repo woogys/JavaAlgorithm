@@ -24,3 +24,7 @@ public class JavaInheritanceII{
         System.out.print(a.add(10,32) + " " + a.add(10,3) + " " + a.add(10,10) + "\n");
     }
 }
+
+// Sample Output
+// My superclass is: Arithmetic
+// 42 13 20

@@ -30,3 +30,8 @@ public class JavaAbstractClass{
 }
 
 
+//Sample Input
+//A tale of two cities
+
+//Sample Output
+//The title is: A tale of two cities

@@ -30,3 +30,8 @@ public class JavaInheritanceI{
 
     }
 }
+
+//Output Format
+//I am walking
+// I am flying
+// I am singing

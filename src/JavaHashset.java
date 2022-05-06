@@ -26,3 +26,20 @@ public class JavaHashset {
 
     }
 }
+
+//Sample Input
+//
+// 5
+// john tom
+// john mary
+// john tom
+// mary anna
+// mary anna
+//
+// Sample Output
+//
+// 1
+// 2
+// 2
+// 3
+// 3

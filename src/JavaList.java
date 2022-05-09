@@ -6,7 +6,7 @@ public class JavaList {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
-            ArrayList<Integer> list = new ArrayList();
+            List<Integer> list = new ArrayList();
             for (int i=0; i<n; i++){
                 list.add(sc.nextInt());
             }
@@ -32,7 +32,7 @@ public class JavaList {
     }
 
 //Sample Input
-//5
+// 5
 // 12 0 1 78 12
 // 2
 // Insert

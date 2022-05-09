@@ -6,7 +6,7 @@ public class JavaMap {
         Scanner in = new Scanner(System.in);
         int n=in.nextInt();
         in.nextLine();
-        HashMap<String, Integer> phoneBook = new HashMap<>();
+        Map<String, Integer> phoneBook = new HashMap<>();
 
         for(int i=0;i<n;i++){
             String name=in.nextLine();
@@ -29,7 +29,7 @@ public class JavaMap {
 
 
 // Sample Input
-//3
+// 3
 // uncle sam
 // 99912222
 // tom

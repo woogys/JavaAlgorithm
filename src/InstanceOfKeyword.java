@@ -36,3 +36,15 @@ public class InstanceOfKeyword{
         System.out.println(count(mylist));
     }
 }
+
+// Sample Input
+// 5
+// Student
+// Student
+// Rockstar
+// Student
+// Hacker
+//
+// Sample Output
+//
+// 3 1 1

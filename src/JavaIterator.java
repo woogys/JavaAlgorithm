@@ -34,3 +34,13 @@ public class JavaIterator{
     }
 }
 
+// sample input
+// 2 2
+// 42
+// 10
+// hello
+// java
+//
+// sample output
+// hello
+// java

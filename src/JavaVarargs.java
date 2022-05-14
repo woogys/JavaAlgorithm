@@ -9,11 +9,11 @@ import java.util.regex.*;
 class Add {
     public void add(int... intArgs) {
         int sum = 0;
-        String separator = "";
+        String operator = "";
         for (int i : intArgs) {
             sum += i;
-            System.out.print(separator + i);
-            separator = "+";
+            System.out.print(operator + i);
+            operator = "+";
         }
         System.out.println("=" + sum);
     }
@@ -59,3 +59,18 @@ public class JavaVarargs {
         }
     }
 }
+
+
+//Sample Input
+//1
+//2
+//3
+//4
+//5
+//6
+//
+//Sample Output
+//1+2=3
+//1+2+3=6
+//1+2+3+4+5=15
+//1+2+3+4+5+6=21

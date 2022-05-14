@@ -68,7 +68,7 @@ public class JavaVarargs {
 //4
 //5
 //6
-//
+
 //Sample Output
 //1+2=3
 //1+2+3=6

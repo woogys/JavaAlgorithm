@@ -1,23 +1,31 @@
-import java.util.*;
-class Sports{
+import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
 
-    String getName(){
+import java.util.*;
+
+interface Sports{
+     public String getName();
+     public void getNumberOfTeamMembers();
+}
+class GenericSports implements Sports{
+
+    @Override
+    public String getName(){
         return "Generic Sports";
     }
-
-    void getNumberOfTeamMembers(){
+    @Override
+    public void getNumberOfTeamMembers(){
         System.out.println( "Each team has n players in " + getName() );
     }
 }
 
-class Soccer extends Sports{
+class Soccer implements Sports{
     @Override
-    String getName(){
+    public String getName(){
         return "Soccer Class";
     }
     // Write your overridden getNumberOfTeamMembers method here
     @Override
-    void getNumberOfTeamMembers(){
+    public void getNumberOfTeamMembers(){
         System.out.println( "Each team had 11 players in " + getName() );
     }
 }
@@ -25,7 +33,7 @@ class Soccer extends Sports{
 public class MethodOverriding{
 
     public static void main(String []args){
-        Sports c1 = new Sports();
+        GenericSports c1 = new GenericSports();
         Soccer c2 = new Soccer();
         System.out.println(c1.getName());
         c1.getNumberOfTeamMembers();

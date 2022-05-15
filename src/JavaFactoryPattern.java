@@ -17,11 +17,14 @@ class Cake implements Food {
 }
 class FoodFactory {
     public Food getFood(String order) {
-
-        if( order.equals("pizza") ) return new Pizza();
-        if( order.equals("cake") ) return new Cake();
+        //Write your code here
+        if(order.equals("pizza")){
+            return new Pizza();
+        }
+        if(order.equals("cake")){
+            return new Cake();
+        }
         return null;
-
     }//End of getFood method
 
 }//End of factory class

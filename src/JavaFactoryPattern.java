@@ -17,6 +17,9 @@ class Cake implements Food {
 }
 class FoodFactory {
     public Food getFood(String order) {
+        if(order == null){
+            return null;
+        }
         //Write your code here
         if(order.equals("pizza")){
             return new Pizza();
